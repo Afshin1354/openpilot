@@ -142,8 +142,8 @@ int main(int argc, char* argv[]) {
   }
   float smooth_brightness = brightness_b;
 
-  const int MIN_VOLUME = LEON ? 12 : 9;
-  const int MAX_VOLUME = LEON ? 15 : 12;
+  const int MIN_VOLUME = LEON ? 1 : 1;
+  const int MAX_VOLUME = LEON ? 1 : 1;
   s->sound->setVolume(MIN_VOLUME);
 
   while (!do_exit) {
